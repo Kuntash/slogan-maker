@@ -1,0 +1,7 @@
+.dashboard {
+  margin-top: 6.4rem;
+  padding: 6.4rem 19.2rem;
+  background-color: var(--primary-light);
+  border-radius: 0.8rem;
+  box-shadow: 0 0.2rem 0.8rem rgba(26, 24, 30, 0.06);
+}

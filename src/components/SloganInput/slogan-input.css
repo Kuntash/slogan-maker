@@ -1,0 +1,24 @@
+.input__container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.slogan__input {
+  border: 0.1rem solid var(--tertiary-grey);
+  border-radius: 0.4rem;
+  padding: 1.2rem 1.6rem;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: var(--primary-dark);
+  font-family: gg-regular;
+}
+
+.slogan__input:focus {
+  outline: none;
+}
+
+.cross__icon {
+  margin-left: -3.2rem;
+}
