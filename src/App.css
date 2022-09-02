@@ -1,9 +1,7 @@
 .app {
-  min-height: 200vh;
-  padding: 0 16rem;
   background: linear-gradient(
     to bottom,
     var(--primary-blue) 300px,
-    var(--primary-grey) 20%
+    var(--primary-grey) 300px
   );
 }

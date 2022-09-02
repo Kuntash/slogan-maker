@@ -1,0 +1,78 @@
+.all__slogans {
+  padding: 4.2rem 0;
+}
+.all__slogans--header {
+  display: flex;
+  justify-content: space-between;
+}
+.all__slogans--header > h2 {
+  font-family: gg-semibold;
+  font-size: 2rem;
+  line-height: 2.8rem;
+}
+
+.slogan__container {
+  margin-top: 3.2rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 3.2rem;
+  row-gap: 2.8rem;
+  padding-bottom: 4.8rem;
+  border-bottom: 1px solid var(--tertiary-grey);
+}
+
+.slogan__item {
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  font-family: gg-regular;
+  background-color: var(--secondary-grey);
+  padding: 0.8rem 1.6rem;
+  border-radius: 0.4rem;
+  min-height: 6rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.pagination__container {
+  padding-top: 2.4rem;
+  padding-bottom: 6.6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: centerr;
+}
+
+.pagination__item {
+  justify-self: center;
+  display: flex;
+  column-gap: 2.4rem;
+}
+
+.pagination__item > p {
+  font-size: 1.4rem;
+  font-family: gg-regular;
+  line-height: 2rem;
+  color: var(--primary-blue);
+}
+
+.click-to-copy {
+  background-color: var(--secondary-dark);
+  color: var(--primary-light);
+  font-family: gg-medium;
+  font-size: 1.4rem;
+  padding: 0.4rem 0.8rem;
+  border-radius: 0.4rem;
+}
+.next__button {
+  cursor: pointer;
+  display: flex;
+  gap: 0.6rem;
+  align-items: center;
+}
+
+.next__button > p {
+  font-size: 1.4rem;
+  color: var(--primary-blue);
+  font-family: gg-regular;
+  line-height: 2rem;
+}

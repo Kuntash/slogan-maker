@@ -9,7 +9,6 @@ const CrossIcon = ({ height, width }: IProps) => {
   const originalHeight = 18;
   return (
     <svg
-      className="cross__icon"
       width={width}
       height={height}
       viewBox={`0 0 ${originalWidth} ${originalHeight}`}

@@ -1,0 +1,32 @@
+.feature__container {
+  display: flex;
+  padding: 7.6rem 16rem 6.4rem;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 3.2rem;
+  background-color: var(--secondary-blue);
+}
+
+.feature__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.feature__item > .feature__icon--container {
+  margin-bottom: 3.6rem;
+}
+.feature__item > h2 {
+  font-family: gg-medium;
+  font-size: 2rem;
+  line-height: 2.8rem;
+  margin-bottom: 0.8rem;
+}
+.feature__item > p {
+  text-align: center;
+  max-width: 35.2rem;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  font-family: gg-regular;
+  color: var(--secondary-dark);
+}

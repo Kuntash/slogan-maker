@@ -1,14 +1,17 @@
 .input__container {
   position: relative;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: flex-start;
-}
-
-.slogan__input {
   border: 0.1rem solid var(--tertiary-grey);
   border-radius: 0.4rem;
   padding: 1.2rem 1.6rem;
+  column-gap: 1.6rem;
+  margin-bottom: 4.8rem;
+}
+
+.slogan__input {
+  border: none;
   font-size: 1.6rem;
   line-height: 2.4rem;
   color: var(--primary-dark);
@@ -19,6 +22,8 @@
   outline: none;
 }
 
-.cross__icon {
-  margin-left: -3.2rem;
+.cross__button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
 }

@@ -20,6 +20,7 @@
 
 :root {
   --primary-blue: #146eb4;
+  --secondary-blue: #f3f7fb;
   --primary-grey: #fafafa;
   --secondary-grey: #f2f2f2;
   --tertiary-grey: #d9d9d9;
@@ -50,4 +51,7 @@
 }
 
 .heading__md {
+  font-family: gg-medium;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
 }
